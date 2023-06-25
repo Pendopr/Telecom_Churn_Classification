@@ -1,6 +1,6 @@
 # Telecom_Churn_Classification
 
-![Banner]('banner.jpg')
+![Banner](banner.jpg)
 
 📞 Predicting the likelihood of customer churn is crucial for telecom companies. This repository contains code and resources for training machine learning models to classify telecom customer churn. By identifying potential churners, companies can take proactive measures to retain their valuable customers and improve customer satisfaction
 
@@ -60,20 +60,20 @@ Data visualization plays a crucial role in EDA, allowing us to uncover patterns,
 
 Histograms and bar plots: To understand the distribution of numerical and categorical variables, respectively.
 
-![churn_distribution]('churn_d.png')
-![region]('region_d.png')
+![churn_distribution](churn_d.png)
+![region](region_d.png)
 
 Box plots: To identify outliers and examine the distribution of numerical variables across different categories.
 
-![revenue]('revenue_d.png')
+![revenue](revenue_d.png)
 
 Scatter plots: To explore relationships and correlations between pairs of variables.
 
-![scatter_plot]('scatter%20plot.png')
+![scatter_plot](scatter%20plot.png)
 
 Heatmaps and correlation matrices: To visualize the correlation between variables and identify potential multicollinearity.
 
-![heatmap]('Heatmap.png')
+![heatmap](Heatmap.png)
 
 Please refer to the provided EDA notebook in the **notebooks**  folder for detailed implementation and visualizations related to the EDA process.
 
@@ -87,7 +87,7 @@ Handling duplicates: We checked for and removed any duplicated records to avoid 
 Data transformation: We performed necessary transformations on the data, such as converting data types, scaling numerical features, encoding categorical variables, and creating derived features.
 
 ## Modeling
-![modeling]('modeling.webp')
+![modeling](modeling.webp)
 
 In this project, multiple classification models are implemented and trained using the preprocessed telecom churn dataset. The models include:
 (Logistic Regression,Random Forest,Gradient Boosting, Gaussian, Cat boost, XGBoost, ComplementNB)
@@ -98,16 +98,16 @@ To improve the models performance we applied the SMOTE technique to balance the 
 Please refer to the provided capstone model notebook in the **notebooks**  folder for detailed implementation of the modeling process.
 
 ## Evaluation
-![Evaluation]('evaluation.jpg')
+![Evaluation](evaluation.jpg)
 
 The trained models are evaluated using AUC_score and log-loss. These metrics provide insights into the model's performance in predicting customer churn. The evaluation results are as shown below:
 
-![Evaluation]('AUC_score.png')
+![Evaluation](AUC_score.png)
 
 From the above observation logistics regression and Gradient Boosting models had a high AUC_score and relatively low log-loss hence saved.
 
 ## Model Deyployment
-![Deyployment]('deployment.png')
+![Deyployment](deployment.png)
 
 We have built a user-friendly web application for easy deployment of the churn prediction model. The web app is developed using Streamlit, a powerful Python library for creating interactive dashboards and data visualizations.
 
