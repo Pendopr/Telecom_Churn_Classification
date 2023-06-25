@@ -104,14 +104,14 @@ The trained models are evaluated using AUC_score and log-loss. These metrics pro
 
 ![Evaluation](./images/AUC_score.png)
 
-From the above observation logistics regression and Gradient Boosting models had a high AUC_score and relatively low log-loss hence saved.
+From the above observation logistics regression and Gradient Boosting models had a high AUC_score and relatively low log-loss hence saved.The saved models are in the **Assets** folder.
 
 ## Model Deyployment
 ![Deyployment](./images/deployment.png)
 
 We have built a user-friendly web application for easy deployment of the churn prediction model. The web app is developed using Streamlit, a powerful Python library for creating interactive dashboards and data visualizations.
 
-The deployment code, including the Streamlit application script, can be found in the **notebooks** directory.
+The deployment code, including the Streamlit application script, can be found in the **app_code** directory.
 
 ## Setup
 Install the required packages to be able to run the evaluation locally.
